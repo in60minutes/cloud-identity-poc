@@ -1,0 +1,21 @@
+customer_id,customer_email,signup_date,customer_name
+1,customer1@example.com,2026-01-01,John Smith
+2,customer2@example.com,2026-01-05,Jane Doe
+3,customer3@example.com,2026-01-10,Robert Brown
+4,customer4@example.com,2026-01-15,Alice Johnson
+5,customer5@example.com,2026-01-20,David Wilson
+6,customer6@example.com,2026-02-01,Michael Davis
+7,customer7@example.com,2026-02-05,Sarah Miller
+8,customer8@example.com,2026-02-10,James Anderson
+9,customer9@example.com,2026-02-15,Emma Thomas
+10,customer10@example.com,2026-02-20,Daniel Moore
+11,customer11@example.com,2026-03-01,Olivia Martin
+12,customer12@example.com,2026-03-05,William Taylor
+13,customer13@example.com,2026-03-10,Sophia White
+14,customer14@example.com,2026-03-15,Joseph Harris
+15,customer15@example.com,2026-03-20,Isabella Clark
+16,customer16@example.com,2026-04-01,Charles Lewis
+17,customer17@example.com,2026-04-05,Mia Walker
+18,customer18@example.com,2026-04-10,Thomas Hall
+19,customer19@example.com,2026-04-15,Amelia Allen
+20,customer20@example.com,2026-04-20,Christopher Young
