@@ -1,15 +1,20 @@
 resource "google_bigquery_dataset" "customer_dataset" {
   dataset_id = "customer_dataset"
-  location   = var.region
+  project    = var.project_id
+  location   = "asia-south1"
 }
+
 resource "google_bigquery_table" "customers" {
+  project    = var.project_id
   dataset_id = google_bigquery_dataset.customer_dataset.dataset_id
   table_id   = "customers"
+
+  deletion_protection = true
 
   schema = jsonencode([
     {
       name = "customer_id"
-      type = "INT64"
+      type = "INTEGER"
       mode = "REQUIRED"
     },
     {
