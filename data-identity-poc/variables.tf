@@ -9,12 +9,12 @@ variable "region" {
   default     = "us-central1"
 }
 
-variable "data_readers_group" {
-  description = "Google group for data readers"
+variable "reader_email" {
+  description = "Google account that receives BigQuery Data Viewer"
   type        = string
 }
 
-variable "data_engineers_group" {
-  description = "Google group for data engineers"
+variable "engineer_email" {
+  description = "Google account that receives BigQuery Data Editor"
   type        = string
 }
