@@ -17,3 +17,9 @@ provider "google" {
   project = var.project_id
   region  = var.region
 }
+provider "snowflake" {
+  account_name      = "MD54827"
+  organization_name = "QLSAZQF"
+  user              = var.snowflake_user
+  password          = var.snowflake_password
+}
